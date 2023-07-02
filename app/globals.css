@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+  background-color: white;
+  color-scheme: white;
+}
+
+@layer components {
+  .btn-inputs {
+    @apply outline-none text-base w-full border border-slate-300 px-3 py-4 rounded-md hover:drop-shadow-sm;
+  }
+}
